@@ -1,0 +1,18 @@
+To upgrade from v4.9 to v5 please read below instructions. 
+
+make sure you are running v4.9 or v5 beta and installed all updates from admin panel
+before proceeding this step. otherwise this update will not work for you. 
+
+please be advised this is v5 stable version and you may use it for productional website now.  
+ 
+to upgrade please follow below steps.  
+
+01. Create new folder on your desktop and extract all files
+02. Delete folder ( Uploads ) and file ( database.php ) 
+03. Now upload all files to your website and replace all files
+
+you are done. happy booking business :)
+
+for fresh installation : http://phptravels.com/documentation/#installation
+
+TEAM PHPTRAVELS  

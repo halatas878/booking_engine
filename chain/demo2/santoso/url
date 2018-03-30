@@ -1,0 +1,9 @@
+search : http://phptravels.net/hotels/search/turkey/istanbul/10?checkin=02%2F02%2F2016&checkout=03%2F02%2F2016&adults=2&child=0
+Section : http://phptravels.net/hotels/Tria-Hotel-Istanbul-Special?&checkin=02/02/2016&checkout=03/02/2016&adults=2&child=0#REVIEWS
+book now : http://phptravels.net/hotels/book/Tria-Hotel-Istanbul-Special?adults=2&child=0&checkin=02%2F02%2F2016&checkout=03%2F02%2F2016&roomid=10&roomscount=1
+
+
+
+.form-group > .control-label .btn-block {
+    width: 15%;
+}

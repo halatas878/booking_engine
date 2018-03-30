@@ -1,0 +1,11 @@
+.img_list { overflow: hidden; min-height: 210px; text-align: center; position: relative; }
+.img_list a img { -webkit-transform: scale(1.2); transform: scale(1.2); -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+.img_list img { width: auto; height: 300px; position: absolute; left: -10%; }
+.img_list a:hover img{ -webkit-transform:scale(1.1); transform:scale(1.1); background: rgba(0,0,0,0.45); }
+.dealtitle a { color:white; text-shadow: 0 1px 5px rgba(9, 9, 18, 0.6); font-family: 'Varela Round', sans-serif; }
+.shadow { text-shadow: 0 1px 5px rgba(9, 9, 18, 0.6) !important; }
+.dealtitle { float: left; max-width: 75%; border: 0px solid black; line-height: 16px; }
+.overlay { position: absolute; min-height: 250px; height: 100%; top: 0; left: 0 }
+.custom { margin-top: -68px; position: absolute; color: white; width: 100%; background-color: rgba(0, 0, 0, 0.47); padding: 10px 10px 0px 5px; }
+.mt0 { margin-top: 30px; }
+.rate { font-size:24px;font-weight:bold }

@@ -1,0 +1,7 @@
+CREATE VIEW pricelist AS
+SELECT pt_rooms_prices.id,pt_rooms_prices.room_id,pt_rooms_prices.date_from,pt_rooms_prices.date_to,pt_rooms_prices.policy,pt_rooms.room_hotel,pt_rooms.room_title,pt_rooms.room_basic_price,(select title from pt_cancellation_policy where pt_cancellation_policy.id=pt_rooms_prices.policy) as cacncellation, (select hotel_title from pt_hotels where pt_hotels.hotel_id=pt_rooms.room_hotel) as hotelname
+FROM pt_rooms_prices 
+join pt_rooms
+on pt_rooms_prices.room_id=pt_rooms.room_id
+
+

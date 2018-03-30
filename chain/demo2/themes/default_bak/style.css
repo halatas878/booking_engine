@@ -1,0 +1,100 @@
+/*
+Theme Name: Default
+Theme URI: http://www.phptravels.com/
+Description: Default PHPTRAVELS Theme.
+Version: v5.x
+Author: PHPTRAVELS
+Author URI: http://www.phptravels.com/
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+body {  font-family: 'Varela Round', sans-serif; }
+
+/* logo width */
+.moto { width: 150px;max-height:42px; }
+
+.size44 { font-size: 44px; }
+.absolute { position : absolute; }
+.review { margin-top: 20px; font-weight: 500; font-size: 18px; }
+.rooms-update { color: #525252; background-color: #FFFFFF; padding:10px; margin-top:20px; margin-bottom: 20px; border: 1px solid #E0E0E0; border-radius: 4px; }
+.btn-update { border: 1px solid #C7C7C7; background: #F7F7F7; color: #6B6B6B; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 2px; font-weight: 400; text-transform: uppercase; -webkit-transition: .2s; -moz-transition: .2s; transition: .2s; }
+.btn-update:hover { border: 1px solid #333333; background: #333333; color: #FFFFFF; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 2px; font-weight: 400; text-transform: uppercase; -webkit-transition: .2s; -moz-transition: .2s; transition: .2s; }
+.bg-white { background-color:#FFFFFF !important; }
+.bg-dark { background-color:#212121 !important; }
+.tiltle-line { height: 2px; width: 40px; background-color: #3d51b4; display: inline-block; }
+.w100p { width:100%; }
+
+/* Button Outline Style */
+.btn-outline { background-color: transparent; color: inherit; transition: all .5s; }
+.btn-primary.btn-outline { color: #428bca; }
+.btn-success.btn-outline { color: #5cb85c; }
+.btn-info.btn-outline    { color: #5bc0de; }
+.btn-warning.btn-outline { color: #f0ad4e; }
+.btn-danger.btn-outline  { color: #d9534f; }
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover { color: #fff; }
+
+/* Availability Calendar */
+.calendar-legend { margin: 0 0 10px; text-align: center; }
+.calendar-legend .calendar-key { display: inline-block; line-height: 21px; height: 21px; width: 23px; position: relative; }
+.calendar-legend .available-key { background-color: #fff; }
+.calendar-legend .calendar-key-box { height: 21px; width: 23px; position: absolute; top: 4px; left: 0; border: 1px solid #dbdbdb; }
+.calendar-legend .calendar-key { display: inline-block; line-height: 21px; height: 21px; width: 23px; position: relative; }
+ dt { font-weight: 700; }
+.calendar-legend .calendar-label { margin: 0 30px 0 5px; }
+.calendar-legend dt, .calendar-legend dd { display: inline-block; }
+.calendar-legend .blocked-key { background-color: #FF9494; text-decoration: line-through; }
+.today { background-color: #8AB1FF; border-radius: 0px !important; color: #fff; padding: 3px; }
+.calendar-legend .today { background-color: #8AB1FF; }
+.notavailable{ background-color: #FF9494; text-decoration: line-through; }
+.availability-table { padding:10px;border: solid 1px #F5F5F5;width: 31%;margin-left: 1%;margin-right: 1%;height: 250px; margin-top:2% }
+
+/* Datepicker Padding issue fix */
+.dropdown-menu { max-width: 212px; }
+
+/* Loading Spiner */
+#rotatingDiv { display: block; margin: 16px auto; height: 50px; width: 50px; -webkit-animation: rotation .9s infinite linear; -moz-animation: rotation .9s infinite linear; -o-animation: rotation .9s infinite linear; animation: rotation .9s infinite linear; border-left: 8px solid rgba(0,0,0,.20); border-right: 8px solid rgba(0,0,0,.20); border-bottom: 8px solid rgba(0,0,0,.20); border-top: 8px solid rgba(33,128,192,1); border-radius: 100%; } @keyframes rotation { from { transform: rotate(0deg); } to { transform: rotate(359deg); } } @-webkit-keyframes rotation { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(359deg); } } @-moz-keyframes rotation { from { -moz-transform: rotate(0deg); } to { -moz-transform: rotate(359deg); } } @-o-keyframes rotation { from { -o-transform: rotate(0deg); } to { -o-transform: rotate(359deg); } }
+.rotatingDiv { display: block; margin: 16px auto; height: 50px; width: 50px; -webkit-animation: rotation .9s infinite linear; -moz-animation: rotation .9s infinite linear; -o-animation: rotation .9s infinite linear; animation: rotation .9s infinite linear; border-left: 8px solid rgba(0,0,0,.20); border-right: 8px solid rgba(0,0,0,.20); border-bottom: 8px solid rgba(0,0,0,.20); border-top: 8px solid rgba(33,128,192,1); border-radius: 100%; } @keyframes rotation { from { transform: rotate(0deg); } to { transform: rotate(359deg); } } @-webkit-keyframes rotation { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(359deg); } } @-moz-keyframes rotation { from { -moz-transform: rotate(0deg); } to { -moz-transform: rotate(359deg); } } @-o-keyframes rotation { from { -o-transform: rotate(0deg); } to { -o-transform: rotate(359deg); } }
+
+/* Remove Powered by Google in PLaces APi */
+.pac-container:after{ content:none !important; }
+
+/* Select Style */
+.selectx { font-weight: bold; width: 100%; height: 3.3em; -webkit-border-radius: .2em; -moz-border-radius: .2em; -o-border-radius: .2em; border-radius: .2em; padding-top: .4em; padding-left: .8em; padding-bottom: .4em; background: #f5f5f5; background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#f5f5f5),color-stop(100%,#e7e7e7)); background: -webkit-linear-gradient(top,#f5f5f5 0%,#e7e7e7 100%); background: -moz-linear-gradient(top,#f5f5f5 0%,#e7e7e7 100%); background: -ms-linear-gradient(top,#f5f5f5 0%,#e7e7e7 100%); background: linear-gradient(top,#f5f5f5 0%,#e7e7e7 100%); }
+
+/* footer languages mega menu */
+.navbar-nav>li>.dropdown-menu { margin-bottom:20px; }
+.mega-dropdown { position: static !important; width:100%; }
+.mega-dropdown-menu { padding: 20px 0px; width: 100%; }
+.mega-dropdown-menu:before { content: ""; border-top: 15px solid #fff; border-right: 17px solid transparent; border-left: 17px solid transparent; position: absolute; bottom: -15px; left: 285px; z-index: 10; }
+.mega-dropdown-menu:after { content: ""; border-top: 17px solid #ccc; border-right: 19px solid transparent; border-left: 19px solid transparent; position: absolute; bottom: -17px; left: 283px; z-index: 8; }
+.mega-dropdown-menu > li > ul { padding: 0; margin: 0; }
+.mega-dropdown-menu > li > ul > li { list-style: none; }
+.mega-dropdown-menu > li > ul > li > a { display: block; padding: 3px 20px; clear: both; font-weight: normal; line-height: 1.428571429; color: #999; white-space: normal; }
+.mega-dropdown-menu > li ul > li > a:hover, .mega-dropdown-menu > li ul > li > a:focus { text-decoration: none; color: #444; background-color: #f5f5f5; }
+.mega-dropdown-menu .dropdown-header { color: #428bca; font-size: 18px; font-weight:bold; }
+.mega-dropdown-menu form { margin:3px 20px; }
+.mega-dropdown-menu .form-group { margin-bottom: 3px; }
+
+.mfp-img { margin-top: 25px; font-size: 21px; text-align: center; animation: fadein 2s; -moz-animation: fadein 2s; /* Firefox */ -webkit-animation: fadein 2s; /* Safari and Chrome */ -o-animation: fadein 2s; /* Opera */  }
+@keyframes fadein { from { opacity:0; } to { opacity:1; } } @-moz-keyframes fadein { /* Firefox */ from { opacity:0; } to { opacity:1; } } @-webkit-keyframes fadein { /* Safari and Chrome */ from { opacity:0; } to { opacity:1; } } @-o-keyframes fadein { /* Opera */ from { opacity:0; } to { opacity: 1; } }
+
+#score_details span { -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; display: inline-block; width: 45px; height: 45px; border: 2px solid #2079FF; line-height: 42px; font-size: 14px; font-weight: bold; color: #006699; margin-right: 5px; text-align: center; }
+#score_details small { color: #FFF !important; }
+.related { color:#fff; text-shadow: 0 1px 2px rgba(0, 0, 0, .6) }
+.switch-toggle a, .switch-light span span { display:none;} @media only screen { /* Checkbox switch */ /* Radio switch */ /* Standalone Themes */ /* Candy Theme * Based on the "Sort Switches / Toggles (PSD)" by Ormal Clarck * http://www.premiumpixels.com/freebies/sort-switches-toggles-psd/ */ /* Android Theme */ /* iOS Theme */ .switch-light { display: block; height: 30px; width:100px; /* Outline the toggles when the inputs are focused */ position: relative; overflow: visible; padding: 0; margin:auto; /* Position the label over all the elements, except the slide-button (<a>) * Clicking anywhere on the label will change the switch-state */ /* Don't hide the input from screen-readers and keyboard access */ } .switch-light * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } .switch-light a { display: block; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; outline:none; } .switch-light label, .switch-light > span { line-height: 30px; vertical-align: middle; height:30px; cursor:pointer;} .switch-light input:focus ~ a, .switch-light input:focus + label { } .switch-light label { position: relative; z-index: 3; display: block; width: 100%; } .switch-light input { position: absolute; opacity: 0; z-index: 5; } .switch-light input:checked ~ a { right: 0%; } .switch-light > span { position: absolute; left: -100px; width: 100%; margin: 0; padding-right: 100px; text-align: left; } .switch-light > span span { position: absolute; top: 0; left: 0; z-index: 5; display: block; width: 50%; margin-left: 100px; text-align: center; } .switch-light > span span:last-child { left: 50%; } .switch-light a { position: absolute; right: 50%; top: 0; z-index: 4; display: block; width: 50%; height: 100%; padding: 0; } .switch-toggle { display: block; height: 30px; /* Outline the toggles when the inputs are focused */ position: relative; /* For callout panels in foundation */ padding: 0 !important; /* Generate styles for the multiple states */ } .switch-toggle * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } .switch-toggle a { display: block; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } .switch-toggle label, .switch-toggle > span { line-height: 30px; vertical-align: middle; } .switch-toggle input:focus ~ a, .switch-toggle input:focus + label { outline: 1px dotted #888888; } .switch-toggle input { position: absolute; opacity: 0; } .switch-toggle input + label { position: relative; z-index: 2; float: left; width: 50%; height: 100%; margin: 0; text-align: center; } .switch-toggle a { position: absolute; top: 0; left: 0; padding: 0; z-index: 1; width: 50%; height: 100%; } .switch-toggle input:last-of-type:checked ~ a { left: 50%; } .switch-toggle.switch-3 label, .switch-toggle.switch-3 a { width: 33.33333%; } .switch-toggle.switch-3 input:checked:nth-of-type(2) ~ a { left: 33.33333%; } .switch-toggle.switch-3 input:checked:last-of-type ~ a { left: 66.66667%; } .switch-toggle.switch-4 label, .switch-toggle.switch-4 a { width: 25%; } .switch-toggle.switch-4 input:checked:nth-of-type(2) ~ a { left: 25%; } .switch-toggle.switch-4 input:checked:nth-of-type(3) ~ a { left: 50%; } .switch-toggle.switch-4 input:checked:last-of-type ~ a { left: 75%; } .switch-toggle.switch-5 label, .switch-toggle.switch-5 a { width: 20%; } .switch-toggle.switch-5 input:checked:nth-of-type(2) ~ a { left: 20%; } .switch-toggle.switch-5 input:checked:nth-of-type(3) ~ a { left: 40%; } .switch-toggle.switch-5 input:checked:nth-of-type(4) ~ a { left: 60%; } .switch-toggle.switch-5 input:checked:last-of-type ~ a { left: 80%; } .switch-candy { background-color: #2d3035; border-radius: 3px; color: white; font-weight: bold; text-align: center; text-shadow: 1px 1px 1px #191b1e; box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.3), 0 1px 0px rgba(255, 255, 255, 0.2); } .switch-candy label { color: white; -webkit-transition: color 0.2s ease-out; -moz-transition: color 0.2s ease-out; transition: color 0.2s ease-out; } .switch-candy input:checked + label { color: #333333; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); } .switch-candy a { border: 1px solid #333333; background-color: #70c66b; border-radius: 3px; background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0)); background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0)); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.45); } .switch-candy > span { color: #333333; text-shadow: none; } .switch-candy span { color: white; } .switch-candy.switch-candy-blue a { background-color: #38a3d4; } .switch-candy.switch-candy-yellow a { background-color: #f5e560; } .switch-android { background-color: #464747; border-radius: 1px; color: white; box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0; /* Selected ON switch-light */ } .switch-android label { color: white; } .switch-android > span span { opacity: 0; -webkit-transition: all 0.1s; -moz-transition: all 0.1s; transition: all 0.1s; } .switch-android > span span:first-of-type { opacity: 1; } .switch-android a { background-color: #666666; border-radius: 1px; box-shadow: inset rgba(255, 255, 255, 0.2) 0 1px 0, inset rgba(0, 0, 0, 0.3) 0 -1px 0; } .switch-android.switch-light input:checked ~ a { background-color: #0e88b1; } .switch-android.switch-light input:checked ~ span span:first-of-type { opacity: 0; } .switch-android.switch-light input:checked ~ span span:last-of-type { opacity: 1; } .switch-android.switch-toggle, .switch-android > span span { font-size: 85%; text-transform: uppercase; } .switch-ios.switch-light { color: #868686; } .switch-ios.switch-light a { left: 0; width: 30px; background-color: white; border: 1px solid lightgrey; border-radius: 100%; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; box-shadow: inset 0 -3px 3px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.1); } .switch-ios.switch-light > span span { width: 100%; left: 0; opacity: 0; } .switch-ios.switch-light > span span:first-of-type { opacity: 1; padding-left: 30px; } .switch-ios.switch-light > span span:last-of-type { padding-right: 30px; } .switch-ios.switch-light > span:before { content: ''; display: block; width: 100%; height: 100%; position: absolute; left: 100px; top: 0; background-color: #fafafa; border: 1px solid lightgrey; border-radius: 30px; -webkit-transition: all 0.5s ease-out; -moz-transition: all 0.5s ease-out; transition: all 0.5s ease-out; box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0; } .switch-ios.switch-light input:checked ~ a { left: 100%; margin-left: -30px; } .switch-ios.switch-light input:checked ~ span:before { border-color: #85c99d; box-shadow: inset 0 0 0 30px #85c99d; } .switch-ios.switch-light input:checked ~ span span:first-of-type { opacity: 0; } .switch-ios.switch-light input:checked ~ span span:last-of-type { opacity: 1; color: white; } .switch-ios.switch-toggle { background-color: #fafafa; border: 1px solid lightgrey; border-radius: 30px; box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0; } .switch-ios.switch-toggle a { background-color: #85c99d; border-radius: 25px; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; transition: all 0.3s ease-out; } .switch-ios.switch-toggle label { color: #868686; } .switch-ios input:checked + label { color: #3a3a3a; } /* Bugfix for older Webkit, including mobile Webkit. Adapted from * http://css-tricks.com/webkit-sibling-bug/ */ .ie8 input[type="checkbox"].fix_ie8 { margin-top:10px; margin:8px 0 0 8px; display:block;} .ie8 .ie8_hide { display:none; } } @media only screen and (-webkit-max-device-pixel-ratio: 2) and (max-device-width: 1280px) { .switch-light, .switch-toggle { -webkit-animation: webkitSiblingBugfix infinite 1s; } } @-webkit-keyframes webkitSiblingBugfix { from { -webkit-transform: translate3d(0, 0, 0); } to { -webkit-transform: translate3d(0, 0, 0); } }
+.modal-dialog { z-index: 9999; }
+.fotorama__stage { max-height:524px !important; min-width:100% !important; }
+
+.strip_all_tour_list .fav:before { color: #B62039; }
+.strip_all_tour_list .fav a { color: #356bc8; }
+
+.wishlist .fav { color: #356bc8 !important; }
+.wishlist.fav:before { color: #B62039 !important; }
+.textupper { text-transform: uppercase; }
+
+.main-title { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-size: 20px; line-height: 16px; margin-top: 0px; margin-bottom: 0px; }
+.slider{ }

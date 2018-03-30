@@ -1,0 +1,6 @@
+[29-Dec-2015 03:13:06 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/k6226666/public_html/wp-includes/update.php on line 467
+[07-Jan-2016 07:30:31 UTC] PHP Parse error:  syntax error, unexpected 'Spacious' (T_STRING) in /home/k6226666/public_html/wp-content/themes/spacious/inc/functions.php on line 455
+[07-Jan-2016 07:30:36 UTC] PHP Parse error:  syntax error, unexpected 'Spacious' (T_STRING) in /home/k6226666/public_html/wp-content/themes/spacious/inc/functions.php on line 455
+[07-Jan-2016 07:30:42 UTC] PHP Parse error:  syntax error, unexpected 'Spacious' (T_STRING) in /home/k6226666/public_html/wp-content/themes/spacious/inc/functions.php on line 455
+[07-Jan-2016 07:31:44 UTC] PHP Parse error:  syntax error, unexpected 'Spacious' (T_STRING) in /home/k6226666/public_html/wp-content/themes/spacious/inc/functions.php on line 455
+[07-Jan-2016 07:32:23 UTC] PHP Parse error:  syntax error, unexpected 'Spacious' (T_STRING) in /home/k6226666/public_html/wp-content/themes/spacious/inc/functions.php on line 455
